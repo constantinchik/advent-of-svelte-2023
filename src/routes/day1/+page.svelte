@@ -30,7 +30,7 @@
 			<div class="card card-hover p-4">
 				<header class="card-header flex items-center gap-4 font-bold">
 					<p>Total Children</p>
-					<i class="fa-solid fa-child" style="color: crimson"></i>
+					<i class="fa-solid fa-child" style="color: lightseagreen"></i>
 				</header>
 				<section class="p-4">
 					<h3>{data.children.length}</h3>
