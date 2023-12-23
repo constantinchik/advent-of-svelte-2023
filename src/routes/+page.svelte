@@ -10,9 +10,13 @@
 			<h3>This project was created using:</h3>
 		</div>
 		<div class="flex justify-center space-x-2">
-			<a class="btn variant-filled" href="https://svelte.dev">Svelte Kit</a>
-			<a class="btn variant-filled" href="https://www.skeleton.dev/"
-				>Skeleton UI</a
+			<a class="btn variant-filled" href="https://svelte.dev" target="_blank"
+				>Svelte Kit</a
+			>
+			<a
+				class="btn variant-filled"
+				href="https://www.skeleton.dev/"
+				target="_blank">Skeleton UI</a
 			>
 		</div>
 	</div>
