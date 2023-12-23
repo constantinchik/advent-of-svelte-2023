@@ -38,7 +38,7 @@
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/constantinchik"
+					href="https://github.com/constantinchik/advent-of-svelte-2023"
 					target="_blank"
 					rel="noreferrer"
 				>
@@ -65,6 +65,12 @@
 					><i class="fa-solid fa-cookie"></i></svelte:fragment
 				>
 				<span>Day 2</span>
+			</AppRailAnchor>
+			<AppRailAnchor href="/day23" selected={$page.url.pathname === '/day23'}>
+				<svelte:fragment slot="lead"
+					><i class="fa-solid fa-network-wired"></i></svelte:fragment
+				>
+				<span>Day 23</span>
 			</AppRailAnchor>
 			<svelte:fragment slot="trail">
 				<AppRailAnchor
