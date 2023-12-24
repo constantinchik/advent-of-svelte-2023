@@ -34,6 +34,9 @@ devDependencies:
   '@types/node':
     specifier: 20.10.5
     version: 20.10.5
+  '@types/seedrandom':
+    specifier: ^3.0.8
+    version: 3.0.8
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.0.0
     version: 6.15.0(@typescript-eslint/parser@6.15.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -64,6 +67,9 @@ devDependencies:
   prettier-plugin-svelte:
     specifier: ^3.1.2
     version: 3.1.2(prettier@3.1.1)(svelte@4.2.8)
+  seedrandom:
+    specifier: ^3.0.5
+    version: 3.0.5
   svelte:
     specifier: ^4.2.7
     version: 4.2.8
@@ -694,6 +700,10 @@ packages:
 
   /@types/pug@2.0.10:
     resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
+    dev: true
+
+  /@types/seedrandom@3.0.8:
+    resolution: {integrity: sha512-TY1eezMU2zH2ozQoAFAQFOPpvP15g+ZgSfTZt31AUUH/Rxtnz3H+A/Sv1Snw2/amp//omibc+AEkTaA8KUeOLQ==}
     dev: true
 
   /@types/semver@7.5.6:
@@ -2188,6 +2198,10 @@ packages:
       graceful-fs: 4.2.11
       mkdirp: 0.5.6
       rimraf: 2.7.1
+    dev: true
+
+  /seedrandom@3.0.5:
+    resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
     dev: true
 
   /semver@7.5.4:

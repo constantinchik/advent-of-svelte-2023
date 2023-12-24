@@ -7,3 +7,4 @@ This project contains the solutions to the [Advent Of Svelte 2023 challenge](htt
 Svelte Kit
 Skeleton UI
 dayjs
+seedrandom

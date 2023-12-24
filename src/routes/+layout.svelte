@@ -66,6 +66,12 @@
 				>
 				<span>Day 2</span>
 			</AppRailAnchor>
+			<AppRailAnchor href="/day22" selected={$page.url.pathname === '/day22'}>
+				<svelte:fragment slot="lead"
+					><i class="fa-solid fa-snowflake"></i></svelte:fragment
+				>
+				<span>Day 22</span>
+			</AppRailAnchor>
 			<AppRailAnchor href="/day23" selected={$page.url.pathname === '/day23'}>
 				<svelte:fragment slot="lead"
 					><i class="fa-solid fa-network-wired"></i></svelte:fragment
