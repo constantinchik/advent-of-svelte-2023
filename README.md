@@ -8,3 +8,5 @@ Svelte Kit
 Skeleton UI
 dayjs
 seedrandom
+leaflet
+svelte-leaflet

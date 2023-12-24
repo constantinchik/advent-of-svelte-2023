@@ -78,6 +78,12 @@
 				>
 				<span>Day 23</span>
 			</AppRailAnchor>
+			<AppRailAnchor href="/day24" selected={$page.url.pathname === '/day24'}>
+				<svelte:fragment slot="lead"
+					><i class="fa-solid fa-location-dot"></i></svelte:fragment
+				>
+				<span>Day 24</span>
+			</AppRailAnchor>
 			<svelte:fragment slot="trail">
 				<AppRailAnchor
 					href="https://github.com/constantinchik"
